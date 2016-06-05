@@ -15,25 +15,25 @@
    
    <preference name = "permissions" value = "none"/>
    
-   <icon src = "img/blog.jpeg" 
+   <icon src = "img/blog.png" 
       gap:platform = "android" gap:qualifier = "ldpi" />
 		
-   <icon src = "img/blog.jpeg" 
+   <icon src = "img/blog.png" 
       gap:platform = "android" gap:qualifier = "mdpi" />
 		
-   <icon src = "img/blog.jpeg" 
+   <icon src = "img/blog.png" 
       gap:platform = "android" gap:qualifier = "hdpi" />
 		
-   <icon src = "img/blog.jpeg" 
+   <icon src = "img/blog.png" 
       gap:platform = "android" gap:qualifier = "xhdpi" />
 		
-   <icon src = "img/blog.jpeg" 
+   <icon src = "img/blog.png" 
       gap:platform = "android" gap:qualifier = "xxhdpi" />
    
-   <icon src = "img/blog.jpeg" gap:platform = "ios" gap:qualifier = ""/>
-   <icon src = "img/blog.jpeg" gap:platform = "ios" width = "57" height = "57" />
-   <icon src = "img/blog.jpeg" gap:platform = "ios" width = "72" height = "72" />
-   <icon src = "img/blog.jpeg" gap:platform = "ios" width = "114" height = "114" />
-   <icon src = "img/blog.jpeg" gap:platform = "ios" width = "144" height = "144" />
+   <icon src = "img/blog.png" gap:platform = "ios" gap:qualifier = ""/>
+   <icon src = "img/blog.png" gap:platform = "ios" width = "57" height = "57" />
+   <icon src = "img/blog.png" gap:platform = "ios" width = "72" height = "72" />
+   <icon src = "img/blog.png" gap:platform = "ios" width = "114" height = "114" />
+   <icon src = "img/blog.png" gap:platform = "ios" width = "144" height = "144" />
    
 </widget>
