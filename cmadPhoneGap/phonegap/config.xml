@@ -1,7 +1,7 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 
 <widget xmlns = "http://www.w3.org/ns/widgets" 
-   xmlns:gap = "http://173.36.55.178:8889/CMADBlog/1.0" id = "4444" version = "1.0">
+   xmlns:gap = "http://173.36.55.178:8889/CMADBlog/1.0" id = "444444" version = "1.0">
    
    <name>CMAD Blog</name>
    
@@ -9,7 +9,7 @@
       Discover, Create and Connect
    </description>
    
-   <author href = "http://173.36.55.178:8889/CMADBlog" email = "gpujar@cisco.com">
+   <author href = "http://173.36.55.178:8889/CMADBlog" email = "arrivegiri@gmail.com">
       Tutorials Point
    </author>
    
