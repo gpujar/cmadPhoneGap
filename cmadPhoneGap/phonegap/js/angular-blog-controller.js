@@ -1,5 +1,5 @@
 (function(){
-	var reqUrl = "http://173.36.55.178:8889/CMADBlog/rest/";
+	var reqUrl = "http://10.142.232.62:8080/CMADBlog/rest/";
 	var module = angular.module('BlogApp',[ 'ngRoute' ]);
 	module.config(['$routeProvider',function($routeProvider){
 		$routeProvider.when('/login', {
