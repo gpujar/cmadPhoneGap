@@ -47,24 +47,24 @@
 			<div id="container" class="accessible_hubtool">
 				<form id="postblog" ng-submit='blogPost()'> <!-- action="http://hubpages.com/hubtool/accessible" method="post" -->
 					<p style="padding-left: 6%">
-						<label for="title">Title</label>
-						<br> 
-						<input type="text" class="form-control"
+						<!--  <label for="title">Title</label>  
+						<br> -->
+						<input type="text" class="form-control" placeholder="Title"
 							tabindex="1" value="Blog Title" size="60" maxlength="100" 
-							name="title" id="title" style="max-width: 80% " required="true" ng-model='blog.title'>
+							name="title" id="title" style="max-width: 90% " required="true" ng-model='blog.title'>
 					</p>
 					<p style="padding-left: 6%">
-						<label for="shortSyn">About your blog in few words :</label>
-						<br> 
-						<input type="text" class="form-control"
+					<!--  	<label for="shortSyn">About your blog in few words :</label>  
+						<br> -->
+						<input type="text" class="form-control" placeholder="Brief summary of blog"
 							tabindex="1" value="Blog Title" size="60" maxlength="200" 
-							name="shortSyn" id="shortSyn" style="max-width: 80% " required="true" ng-model='blog.shortSyn'>
+							name="shortSyn" id="shortSyn" style="max-width: 90% " required="true" ng-model='blog.shortSyn'>
 					</p>
 					<p style="padding-left: 6%">
-						<label for="hubContent">Type the text of your blog :</label>
-						<br>
-						<textarea class="form-control" rows="15" cols="50" tabindex="7" name="content"
-							id="content" style="width: 80%" required="true" ng-model='blog.content'></textarea>
+						<!--  <label for="hubContent">Type the text of your blog :</label> 
+						<br> -->
+						<textarea class="form-control" rows="15" cols="50" tabindex="7" name="content" placeholder="Main content of blog"
+							id="content" style="max-width: 90%" required="true" ng-model='blog.content'></textarea>
 					</p>
 					<input type="hidden" name="a" value="4849296">
 					<p style="padding-left: 6%">

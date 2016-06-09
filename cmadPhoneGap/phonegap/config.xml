@@ -5,6 +5,9 @@
         versionCode = "10" 
         version     = "1.0.0" >
     <!-- versionCode is optional and Android only -->
+    <gap:config-file platform="android" parent="/manifest">
+     	<application android:debuggable="true" />
+	</gap:config-file>
     <name>CMAD Blog</name>
     <description>
         This is demo for CMAD program. 

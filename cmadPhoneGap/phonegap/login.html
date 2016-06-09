@@ -34,49 +34,32 @@
     
     <div class="wrapper">
     <form class="form-signin" id="login">       
-      <h2 class="form-signin-heading">Please login</h2>
+      <h2 class="form-signin-heading">Welcome to CMAD Blog.</h2>
       <input type="email" class="form-control" name="email" placeholder="Email Address" required="true" placeholder="Enter a valid email address" autofocus="true"  ng-model="user.username"/>
-      <input type="password" class="form-control" name="password" placeholder="Password" required="true" type="email" ng-model="user.password"/>
+      <input type="password" class="form-control" name="password" placeholder="Password" required="true" ng-minlength="6" ng-model="user.password"/>
       
      <!--  <label class="checkbox">
         <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Remember me
       </label>   -->
-      <button class="btn btn-md btn-primary btn-block" type="submit" id="login" ng-click = "login(user)">Login</button>
-		<a href="#register">   Sign Up</a>
-		
+      <button class="btn btn-md btn-primary btn-block btn-success" type="submit" class="btn " id="login" ng-click = "login(user)">Login</button>
+		<a href="#register">   First time user ? click here</a>
     </form>
-  </div>
-      
+  	</div>
+  	 <div ng-show = "error" style="color: red" align="center">
+    	Login credentials are not correct. Please retry with proper credentials.
+    </div>
+     <div ng-show = "Logging" style="color:green" align="center">
+    	logging now....... 
+    </div>
+     <div ng-show = "success" style="color:green" align="center">
+    	Login success !!!...
+    </div>
       <!-- Footer -->
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <ul class="list-inline text-center">
-                        <!--  <li>
-                            <a href="#">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li> -->
                     </ul>
                     <p class="copyright text-muted">Copyright &copy; cmadblog.com 2016</p>
                 </div>
